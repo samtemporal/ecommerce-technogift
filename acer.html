@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="CSS/estilo_acer.css">
+<link rel="stylesheet" href="CSS/media-queries.css">
+<
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+   <!--Navbar-->
+   <nav class="navbar">
+      <img class="logo" src="img/logo.png"></img>
+      <ul class="nav-links">
+          <li><a class="active" href="index.html">Inicio</a></li>
+          <li>
+              <a href="#">Categorías</a>
+              <ul class="menu-vertical">
+                  <li><a href="catalogo-personalizable.html">Promociones</a></li>
+                  <li><a href="catalogo-portatil.html">Portátiles</a></li>
+                  <li><a href="catalogo-audifono.html">Audífonos</a></li>
+                  <li><a href="catalogo-gamers.html">Gamers</a></li>
+                  <li><a href="catalogo-programadores.html">Programadores</a></li>
+                  <li><a href="catalogo-moviles.html">Móviles</a></li>
+                  <li><a href="catalogo-accesorio.html">Accesorios</a></li>
+
+
+
+
+              </ul>
+          </li>
+          <li><a href="contacto.html">Contáctanos</a></li>
+          <li><a id="myBtn"  href="#myModal">FAQ</a></li>
+          <img onclick="window.location.href='carrito.html'" src="img/Icons/cart.svg" alt="" class="img-icons">
+          <img src="img/Icons/searchIcon.svg" alt="" class="img-icons">
+          <img onclick="window.location.href='login.html'" src="img/Icons/user.png" alt="" class="img-icons">
+ 
+      </ul>
+ 
+      <img  src="img/hamburguer.png"  alt="" class="menu-btn">
+      
+  </nav>
+ 
+ 
+         <header class="header-cat">
+             <div class="header-content">
+                 <h2>PERSONALIZABLES <span class="span-text-header"></span> </h2>
+                 <!--<div class="line"></div>-->
+               <!---  <div class="contenedor">
+                     <div class="box">
+                         <div class="content">
+                             <a href="#" id="ctn" class="ctn">About us</a>
+ 
+                         </div>
+                     </div>
+                 </div> -->
+ 
+             </div>
+         </header>
+
+<div class="imagen_centro">
+</div>
+<!--<h1>Personalizables</h1>
+   <img src="img/imagen_centro.png" width="1365" height="500" alt="">
+</div>-->
+
+
+<div class="arriba_imagen">
+<h1>Añadir imagen</h1>
+<h2>Añadir texto</h2>
+</div>
+
+<div class="ejemplo">
+   <img src="img/ejemplo_diseño.png" width="500" height="450" alt="">
+</div>
+
+<div class="informacion_izquierda">
+<h1>Samsung Galaxy A12</h1>
+<h2>Antigolpes</h2>
+<h3>$120</h3>
+<h4>$60</h4>
+
+
+<div class="pasos">
+<h1>1. agregra tu imagen en añadir imagen</h1>
+<h2>2. ajuste la imagen al tamaño deseado</h2>
+<h3>3. coloque un texto de ser necesario en "añadir texto"</h3>
+<h4>4. si lo deseas puedes agregar un color de fondo (icono cubeta)</h4>
+<h5>5. seleccione el material que desee</h5>
+<h6>6. por ultimo, añade tu funda al carrito</h6>
+</div>
+</div>
+
+<div class="material_disponible">
+<h1>Material:</h1>
+<input class="material_text" type="text"  placeholder="seleccione un material">
+<h2>10 disponibles</h2>
+<button onclick="window.location.href='carrito.html'">Añadir al carrito</button>
+</div>
+
+
+<div class="descripcion_arriba">
+</div>
+
+<div class="descripcion">
+   <h1>Descripcion</h1>
+</div>
+
+<div class="valoraciones">
+   <h1>Valoraciones</h1>
+</div>
+
+<div class="des_primera">
+   <h1>.Diseñada por</h1>
+   <h2>TECHNO GIFT</h2>
+   <h3>especialmente como una alternativa ideal de proteccion</h3>
+   <h4>.Funda para celular de la mas alta calidad (High Quality Case)</h4>
+   <h5>.Resistente a caidas y golpes</h5>
+</div>
+
+
+<div class="des_segunda">
+  <h1>.Todas las fundas son creadas con un diseño ergonomico que protegue la parte trasera</h1>
+  <h2>y los laterales</h2>
+  <H3>.Ajuste perfecto para tu equipo</H3>
+  <h4>.Ranuras de facil acceso a puertos finamente esculpidos</h4>
+  <h6>.Diseño tipo antigolpes</h6>
+</div>
+
+<div class="quizas">
+   <h1>Quizas te puede gustar</h1>
+   <img src="img/maybe.png" width="1250" alt="">
+</div>
+
+
+
+
+<script>
+   const menuBtn=document.querySelector('.menu-btn')
+   const navlinks= document.querySelector('.nav-links')
+   menuBtn.addEventListener('click',()=>{
+      navlinks.classList.toggle('mobile-menu')
+   })
+</script>
+</body>
+</html>
+

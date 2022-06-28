@@ -1,0 +1,47 @@
+/* mobile device*/
+
+@media only screen and (max-width:1150px){
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top:30px;
+        left: 30px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(2, 1, 9);
+        margin-top: -900px;
+
+        transition: all 0.5s ease;
+        
+    }
+
+    .mobile-menu{
+        margin-top: 0;
+        border-bottom-right-radius: 30%;
+    }
+
+    
+
+    .nav-links li{
+        margin: 30px auto;
+    }
+
+    .nav-links img{
+        margin: 10px auto;
+    }
+    .menu-btn{
+        display: block;
+    }
+
+    .line{
+        width: 100vmin;
+    }
+
+
+}
